@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 .main {
     height: 100%;
     width: 600px;
@@ -9,9 +11,10 @@
 }
 
 .titulo {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
 }
 
 .titulo:nth-child(3) {
@@ -19,9 +22,11 @@
 }
 
 .subtitulo {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
-    font-size: 1.2rem;
-    color: #647373;
+    color: rgb(121, 121, 121);
 }
 
 .pastas {
