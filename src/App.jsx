@@ -6,12 +6,10 @@ function App() {
     // to querendo um obj com titulo e desc para por no mouse no hover, faço aqui por enquanto mesmo
     const treinoCss = {
         titulo: "treino de css",
-        desc: "🐱",
         link: 'https://github.com/MrCode-Man/FrontEnd_treino'
     }
     const treinoPOO = {
-        titulo: "terminal em Java",
-        desc: "😹",
+        titulo: "terminal Java",
         link: 'https://github.com/MrCode-Man/TerminalJava'
     }
 
