@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+.pasta {
+    position: relative;
+    width: 230px;
+    height: 248px;
+}
+
+.fundo {
+    border-radius: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.meio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 85%;
+    height: 85%;
+
+    background-color: #fefffe;
+
+    border-radius: 8px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #1b1a1a;
+    text-align: left;
+    padding: 8px;
+}
+
+.frente {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    border-radius: 0 0 26px 26px;
+}
