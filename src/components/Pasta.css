@@ -75,4 +75,13 @@
     width: 100%;
     height: 50%;
     border-radius: 0 0 26px 26px;
+
+    clip-path: polygon(
+            0% 0%,      /* 1. Canto Superior Esquerdo (Reta) */
+            60% 0%,     /* 2. INÍCIO da Descida Diagonal (75% largura, 0% altura) - Mais adiante! */
+            75% 15%,    /* 3. Fim da Descida Diagonal/Início da Reta (85% largura, 15% altura) */
+            100% 15%,   /* 4. Canto Superior Direito (100% largura, 15% altura) - Linha RETA */
+            100% 100%,  /* 5. Canto Inferior Direito (Reta) */
+            0% 100%     /* 6. Canto Inferior Esquerdo (Reta) */
+    );
 }
